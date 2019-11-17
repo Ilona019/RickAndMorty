@@ -1,0 +1,94 @@
+@media only screen and (max-width: 930px) {
+    .rm-Title {
+        font-size: 70px;
+    }
+    
+    .rm-LevelsList {
+        grid-gap: 20px;
+    }
+
+    .rm-LevelCard {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .rm-LevelsList {
+        grid-gap: 15px;
+    }
+
+    .rm-LevelCard {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .rm-LevelCard {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .rm-LevelsList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .rm-Title {
+        font-size: 60px;
+    }
+
+    .rm-LevelsList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .rm-LevelCard {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 300px){ 
+    .rm-Title {
+        font-size: 40px;
+    }
+
+    .rm-LevelsList {
+        grid-gap: 10px;
+    }
+
+    .rm-LevelsList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rm-LevelCard {
+        width: 60px;
+        height: 60px;
+    }
+
+    .rm-LevelCard {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 150px){ 
+    .rm-Title {
+        font-size: 15px;
+    }
+    .rm-LevelsList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rm-LevelCard {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rm-LevelCard {
+        font-size: 20px;
+    }
+}
